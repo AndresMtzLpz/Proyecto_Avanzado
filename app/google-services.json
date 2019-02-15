@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "873508675824",
+    "firebase_url": "https://prointer-346f1.firebaseio.com",
+    "project_id": "prointer-346f1",
+    "storage_bucket": "prointer-346f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873508675824:android:a08171f00fbbd7fe",
+        "android_client_info": {
+          "package_name": "com.example.anes.pro_inter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873508675824-lp0ttmmno9bigjjhbs3f04i3h2ilhbjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anes.pro_inter",
+            "certificate_hash": "1acd69b7d27c84000a505dd634829eb763568ea2"
+          }
+        },
+        {
+          "client_id": "873508675824-hjthescjoqppae48f10civrd082rftnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb5VNbUqokh-d4oxDTUPaDnjrLlnmETbI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873508675824-hjthescjoqppae48f10civrd082rftnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

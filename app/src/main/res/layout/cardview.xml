@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_titulo_cardview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Titulo"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:id="@+id/tv_cuerpo_cardview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:inputType="textMultiLine"
+                    android:text="Comienza tu dia con un buen desayuno"
+                    android:textSize="10sp"
+            />
+
+            <LinearLayout
+                    android:background="@color/grisfondo"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_marginLeft="25dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tag"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"/>
+                <TextView
+                        android:id="@+id/tv_etiqueta_cardview"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"/>
+                <ImageView
+                        android:id="@+id/iv_trash_cardview"
+                        android:layout_marginLeft="60dp"
+                        android:layout_gravity="center|right"
+                        android:src="@drawable/trash"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+</android.support.v7.widget.CardView>

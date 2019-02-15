@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Login">
+
+    <TextView
+            android:text="E-Note"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/gris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"/>
+    <EditText
+            android:hint="Nombre"
+            android:paddingLeft="20dp"
+            android:background="@drawable/btn_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_nombreR"/>
+    <EditText
+            android:hint="Correo"
+            android:paddingLeft="20dp"
+            android:background="@drawable/btn_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/et_correoR"/>
+    <EditText
+            android:hint="Contraseña"
+            android:paddingLeft="20dp"
+            android:background="@drawable/btn_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/et_contrasenaR"/>
+
+
+
+    <Button
+            android:text="Registrar"
+            android:layout_margin="10dp"
+            android:background="@drawable/bt_iniciar2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:id="@+id/btn_registrarR"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="etiquetas">
+        <item>Escuela</item>
+        <item>Trabajo</item>
+        <item>Casa</item>
+        <item>Personal</item>
+    </array>
+
+</resources>
